@@ -3,7 +3,9 @@
 
 int main(void)
 {
-  printf("Meow\n");
-  printf("Meow\n");
-  printf("Meow\n");
+    int count;
+    for (count=0; count<3; count ++)
+    {
+        printf("Meow\n");
+    }
 }

@@ -15,4 +15,12 @@ int main(void)
         printf("Meow\n");
         number++;
     }
+
+    int i = 0;
+    do
+    {
+        printf("Meow\n");
+        i++;
+    }
+    while (i<3);
 }

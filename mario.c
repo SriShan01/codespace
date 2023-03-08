@@ -27,12 +27,15 @@ int main(void)
     int x= 0;
     for (x=0; x<3; x++)
     {
-        intz=0;
-        for (z=0; z<3; )
         int y = 0;
         for (y=0; y<3; y++)
         {
-            printf("#");
+            int z = 0;
+            for (z=0; z<3; z++)
+            {
+                printf("#");
+            }
+            printf("/n");
         }
         printf("\n");
     }

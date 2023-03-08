@@ -10,10 +10,9 @@ int main(void)
     }
 
     int number = 0;
-    while (number>3)
+    while (number<3)
     {
-        printf("Meow");
+        printf("Meow\n");
         number++;
     }
 }
-

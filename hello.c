@@ -6,4 +6,6 @@ int main(void)
     string first = get_string("Please type your first name? ");
     string last = get_string("Please type your last name? ");
     printf("hello %s %s\n", first, last);
+
+    if
 }

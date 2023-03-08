@@ -8,4 +8,12 @@ int main(void)
     {
         printf("Meow\n");
     }
+
+    int number = 0;
+    while (number>3)
+    {
+        printf("Meow");
+        number++;
+    }
 }
+

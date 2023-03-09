@@ -1,9 +1,6 @@
 #include <cs50.h>
-#include <stdio.h>
 
-int main(void)
+int main (void)
 {
-    string first = get_string("Please type your first name? ");
-    string last = get_string("Please type your last name? ");
-    printf("hello %s %s\n", first, last);
+    printf("hello world\n");
 }
